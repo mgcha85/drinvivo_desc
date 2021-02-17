@@ -22,7 +22,7 @@
 | 4 | temp, co2 or humidity | - | short |
 
 
-### alarm
+### message
 | index | value | description | note |
 | --- |  --- |  --- |  --- | 
 | 0 | otherwise | header (1 byte) | - | 
