@@ -3,9 +3,9 @@
 | index | value | description | note |
 | --- |  --- |  --- |  --- | 
 | 0 | 0x01 or 0x0F | header (1 byte) | - |
-| 1 | null | body (from here) | - |
+| 1 | null | - | - |
 | 2 | filesize | - | - |
-| 3 | null | - | - |
+| 3 | null | body (from here) | - |
 | 4 | sensor type | dispenser, short_time, vacuum_time, interval_time, shot_pressure, vacuum_pressure, real_temperature, set_temperature, set_pid (0x30, …, 0x38) | dispenser는 byte, pid는 string 그외 short (2 bytes) |
 | 5 | currentCH | dispenser case | - |
 | 6 | currentMode | dispenser case | - |
@@ -15,8 +15,8 @@
 ### alarm
 | index | value | description | note |
 | --- |  --- |  --- |  --- | 
-| 0 | 0x03 | header (1 byte) | - |
-| 1 | null | body (from here) | - |
+| 0 | 0x03 | - | - |
+| 1 | null | - | - |
 | 2 | filesize | - | - |
 | 3 | temp, co2 or humidity | co2 status 0이면 temperature, 1이면 CO2값을 받고, 2면 humidity를 받음 | short |
 | 4 | temp, co2 or humidity | - | short |
