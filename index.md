@@ -18,7 +18,7 @@
 | 0 | 0x03 | header (1 byte) | - |
 | 1 | null | body (from here) | - |
 | 2 | filesize | - | - |
-| 3 | temp, co2 or humidity | 0이면 temperature, 1이면 CO2값을 받고, 2면 humidity를 받음 | short |
+| 3 | temp, co2 or humidity | co2 status 0이면 temperature, 1이면 CO2값을 받고, 2면 humidity를 받음 | short |
 | 4 | temp, co2 or humidity | - | short |
 
 
