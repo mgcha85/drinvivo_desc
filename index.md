@@ -1,3 +1,26 @@
+file header
+| index | value | description | note |
+| --- |  --- |  --- |  --- | 
+| 0 | 0x01 or 0x0F | header (1 byte) | - |
+| 1 | null | body (from here) | - |
+| 2 | filesize | - | - |
+| 3 | null | - | - |
+| 4 | sensor type | dispenser, short_time, vacuum_time, interval_time, shot_pressure, vacuum_pressure, real_temperature, set_temperature, set_pid (0x30, …, 0x38) | - |
+| 5 | currentCH | dispenser case | - |
+| 6 | currentMode | dispenser case | - |
+| 7 | currentStatus | dispenser case | - |
+| ... | 4가 dispenser가 아닌 경우 5 부터 쭉 해당 값 (short_time, vacuum_time, ..., or set_pid) | - |
+
+
+
+
+
+
+## Alarm
+Phone_control_activity.kt: wifi communication을 통해 신호를 받아들임 (alram thread를 돌면서 alarm도 모니터링 (5초 마다))
+Phone_main_activity.kt: 상동 + 메인 리스트를 parsing
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/mgcha85/drinvivo_desc/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
