@@ -6,7 +6,7 @@
 | 1 | null | body (from here) | - |
 | 2 | filesize | - | - |
 | 3 | null | - | - |
-| 4 | sensor type | dispenser, short_time, vacuum_time, interval_time, shot_pressure, vacuum_pressure, real_temperature, set_temperature, set_pid (0x30, …, 0x38) | dispenser는 byte, pid string 그외 short (2 |
+| 4 | sensor type | dispenser, short_time, vacuum_time, interval_time, shot_pressure, vacuum_pressure, real_temperature, set_temperature, set_pid (0x30, …, 0x38) | dispenser는 byte, pid string 그외 short (2 byte) |
 | 5 | currentCH | dispenser case | - |
 | 6 | currentMode | dispenser case | - |
 | 7 | currentStatus | dispenser case | - |
