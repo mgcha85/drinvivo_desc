@@ -26,7 +26,7 @@
 | index | value | description | note |
 | --- |  --- |  --- |  --- | 
 | 0 | otherwise | header (1 byte) | - | 
-| 0 | "line:" 이 포함되어 있으면 current line값을 넣고,  "filestatus:"가 포함되어 있으면 file 상태와 total line을 업데이트 하고 print상태를 켬,  "qq:"가 포함되어 있으면 통신을 멈춤,  "*err:"가 들어있으면, 냉각수의 레벨에 대해서 켠다,  "endprint"가 포함되어 있으면 print상태를 끈다,  endhome이 포함되어 있으면 앱을 메인화면으로? | - | - |
+| 1 | "line:" 이 포함되어 있으면 current line값을 넣고,  "filestatus:"가 포함되어 있으면 file 상태와 total line을 업데이트 하고 print상태를 켬,  "qq:"가 포함되어 있으면 통신을 멈춤,  "*err:"가 들어있으면, 냉각수의 레벨에 대해서 켠다,  "endprint"가 포함되어 있으면 print상태를 끈다,  endhome이 포함되어 있으면 앱을 메인화면으로? | - | - |
 
 
 
