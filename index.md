@@ -1,4 +1,5 @@
-file header
+## file header
+### sensor
 | index | value | description | note |
 | --- |  --- |  --- |  --- | 
 | 0 | 0x01 or 0x0F | header (1 byte) | - |
@@ -11,6 +12,25 @@ file header
 | 7 | currentStatus | dispenser case | - |
 | ... | 4가 dispenser가 아닌 경우 5 부터 쭉 해당 값 (short_time, vacuum_time, ..., or set_pid) | - |
 
+### alarm
+| index | value | description | note |
+| --- |  --- |  --- |  --- | 
+| 0 | 0x03 | header (1 byte) | - |
+| 1 | null | body (from here) | - |
+| 2 | filesize | - | - |
+| 3 | temp, co2 or humidity | 0이면 temperature, 1이면 CO2값을 받고, 2면 humidity를 받음 | short |
+| 4 | temp, co2 or humidity | - | short |
+
+
+### alarm
+| index | value | description | note |
+| --- |  --- |  --- |  --- | 
+| 0 | "line:" 이 포함되어 있으면 current liner값을 넣고  
+"filestatus:"가 포함되어 있으면 file 상태와 total line을 업데이트 하고 print상태를 켬  
+"qq:"가 포함되어 있으면 통신을 멈춤  
+"*err:"가 들어있으면, 냉각수의 레벨에 대해서 켠다  
+"endprint"가 포함되어 있으면 print상태를 끈다  
+endhome이 포함되어 있으면 앱을 메인화면으로? | - | - |
 
 
 
