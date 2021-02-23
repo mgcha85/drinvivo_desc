@@ -1,7 +1,7 @@
 # 2021-02-23
 ## 현재까지 organ regenerator 업데이트 상황
 
-### control
+### ontrol
 - extruder filament: current temperature 추가 (L0 온도 값)
 - extruder filament: load시 F값 250 -> 150
 - dispenser에서 맨아래 moving axis D1~D5추가
