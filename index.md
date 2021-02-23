@@ -1,11 +1,19 @@
 # 2021-02-23
 ## 현재까지 organ regenerator 업데이트 상황
 
-### ontrol
+### Control
 - extruder filament: current temperature 추가 (L0 온도 값)
 - extruder filament: load시 F값 250 -> 150
 - dispenser에서 맨아래 moving axis D1~D5추가
 - Co2 incubator 에 set temp 추가 해서 온도 조절 할 수 있게 만듬 (개발자용)
+- control axis, dispenser에 load, unload 버튼 추가
+- curing에서 Homing 메시지와 버튼, Interval 추가 (apply버튼 삭제)
+
+
+### Status
+- load, unload 버튼 추가
+- Dispensers테이블에 SHOT대신 VAC.P (kpa) 삽입
+
 
 ### Microscope
 - 화살표 이동방향 맞춤
