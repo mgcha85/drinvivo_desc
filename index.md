@@ -5,6 +5,7 @@
 - extruder filament: current temperature 추가 (L0 온도 값)
 - extruder filament: load시 F값 250 -> 150
 - dispenser에서 맨아래 moving axis D1~D5추가
+- Co2 incubator 에 set temp 추가 해서 온도 조절 할 수 있게 만듬 (개발자용)
 
 ### Microscope
 - 화살표 이동방향 맞춤
