@@ -1,3 +1,21 @@
+# 2021-02-23
+## 현재까지 organ regenerator 업데이트 상황
+
+### control
+- extruder filament: current temperature 추가 (L0 온도 값)
+- extruder filament: load시 F값 250 -> 150
+- dispenser에서 맨아래 moving axis D1~D5추가
+
+### Microscope
+- 화살표 이동방향 맞춤
+
+### Setting
+- Alarm에서 low coolant level이 불 들어오면 beep소리 계속 나옴
+- Emergent Restore 옵션 추가 (내용 없음)
+
+
+
+
 ## file header
 ### sensor
 | index | value | description | note |
